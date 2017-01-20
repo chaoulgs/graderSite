@@ -6,7 +6,7 @@ var router = express.Router();
 
 //homepage
 router.get('/download', function(req, res){
-	res.download('./public/downloads/AmazingTestGrader103.rar');
+	res.download('./public/downloads/AmazingTestGrader103.zip');
 });
 //return router
 module.exports = router;
