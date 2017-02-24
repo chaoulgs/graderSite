@@ -6,7 +6,7 @@ var router = express.Router();
 
 //homepage
 router.get('/downloadproto', function(req, res){
-	res.download('./public/downloads/grader-v2-prototype.zip');
+	res.download('./public/downloads/graderv2prototype.zip');
 });
 //return router
 module.exports = router;
