@@ -8,6 +8,7 @@ var app = express();
 //Routes
 app.use('/', require('./routes/index'));
 app.use('/', require('./routes/download'));
+app.use('/', require('./routes/downloadproto'));
 
 //set static folder
 app.use(express.static(path.join(__dirname, 'public')));
